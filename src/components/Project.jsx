@@ -24,7 +24,8 @@ function Project() {
         <div className="card">
 <img
   className="card_imagess"
-  src={rg}
+  // src={rg}
+  src="https://media.istockphoto.com/id/931042070/vector/website-construction-line-style-illustration.jpg?s=612x612&w=0&k=20&c=nEB37_J5y3j08MKqhAGlgK7OmBwPFoEsU_JuTrOaIh4="
   alt="Richart Groups Dubai"
 />
           <div className="card_body">
@@ -52,6 +53,10 @@ function Project() {
             <p className="card_info">
               A full-stack food delivery application with cart, ordering system, and order history features.
             </p>
+            <div className="tech_stack">
+              <h3 className="card_info">Tech_Stack : </h3>
+              <p className="card_info">Java | JEE | JSP | JDBC | MySQL | HTML | CSS | JS</p>
+            </div>
             <div className="btn">
               <a
                 href="https://github.com/YourGitHub/Food-Delivery-App"
@@ -64,28 +69,7 @@ function Project() {
           </div>
         </div>
 
-        <div className="card">
-          <img
-            className="card_imagess"
-            src="https://png.pngtree.com/png-vector/20191027/ourmid/pngtree-testing-video-blogger-vector-blog-channel-man-popular-video-streamer-blogger-png-image_1893992.jpg"
-            alt="Blog Website"
-          />
-          <div className="card_body">
-            <h1 className="card_title">Blog Website</h1>
-            <p className="card_info">
-              Blog platform with authentication, post creation, and search features.
-            </p>
-            <div className="btn">
-              <a
-                href="https://github.com/YourGitHub/Blog-Website"
-                target="_blank"
-                className="card_btn1"
-              >
-                <GitHubIcon />
-              </a>
-            </div>
-          </div>
-        </div>
+
 
         <div className="card">
           <img
@@ -94,10 +78,15 @@ function Project() {
             alt="Customer Management"
           />
           <div className="card_body">
-            <h1 className="card_title">Employee Management System</h1>
+            <h1 className="card_title">Customer Management System</h1>
             <p className="card_info">
-              CRUD-based app for managing customers, built with Java + Spring MVC + Hibernate + SQL.
+              Customer Record System With One - click CRUD Operations
             </p>
+            <div className="tech_stack">
+              <h3 className="card_info">Tech_Stack : </h3>
+              <p className="card_info">Java | Spring MVC | Hibernate | MySQL | HTML | CSS | JS.</p>
+              
+            </div>
             <div className="btn">
               <a
                 href="https://github.com/YourGitHub/Customer-Management"
@@ -121,9 +110,43 @@ function Project() {
             <p className="card_info">
               Suggests food items & restaurants based on user preferences and recommendations.
             </p>
+            <div className="tech_stack">
+              <h3 className="card_info">Tech_Stack : </h3>
+              <p className="card_info">Java | Spring MVC | Hibernate | MySQL | HTML | CSS | JS.</p>
+            </div>
             <div className="btn">
               <a
                 href="https://github.com/YourGitHub/Food-Recommendation-App"
+                target="_blank"
+                className="card_btn1"
+              >
+                <GitHubIcon />
+              </a>
+            </div>
+          </div>
+        </div>
+
+
+
+                <div className="card">
+          <img
+            className="card_imagess"
+            src="https://png.pngtree.com/png-vector/20191027/ourmid/pngtree-testing-video-blogger-vector-blog-channel-man-popular-video-streamer-blogger-png-image_1893992.jpg"
+            alt="Blog Website"
+          />
+          <div className="card_body">
+            <h1 className="card_title">Blog Website</h1>
+            <p className="card_info">
+              Blog platform with authentication, post creation, and search features.
+            </p>
+            <div className="tech_stack">
+              <h3 className="card_info">Tech_Stack : </h3>
+              <p className="card_info">Java | JEE | JSP | JDBC | MySQL | HTML | CSS | JS.</p>
+              <p className="card_info">MVC & DAO DESIGN PATTERN</p>
+            </div>
+            <div className="btn">
+              <a
+                href="https://github.com/YourGitHub/Blog-Website"
                 target="_blank"
                 className="card_btn1"
               >

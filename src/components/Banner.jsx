@@ -40,7 +40,12 @@ function Banner() {
             >
               <span className="banner_span">I am a </span>
               <TypeAnimation
-                sequence={["Java Full Stack Developer", 2000, "Full Stack Developer", 2000]}
+                sequence={[
+                  "Java Full Stack Developer", 2000, 
+                  "Full Stack Developer", 2000,
+                  "React Developer", 2000,
+                  "Backend Developer", 2000
+                ]}
                 speed={50}
                 className="banner_textanime"
                 wrapper="span"
@@ -54,13 +59,8 @@ function Banner() {
               viewport={{ once: false, amount: 0.7 }}
               className="banner_summary"
             >
- I am a Java Full Stack Developer with 1+ years of experience, working on real-world project 
-  a Dubai construction admin system. I am passionate about building scalable and maintainable applications,
-   mentoring aspiring developers, and delivering high-quality solutions that drive your business success. 
-
-
-
-          </motion.p>
+              I am a Java Full Stack Developer with 1+ years of experience, working on real-world projects including a Dubai construction admin system. I am passionate about building scalable and maintainable applications, mentoring aspiring developers, and delivering high-quality solutions that drive your business success.
+            </motion.p>
             <motion.div
               variants={fadeIn("up", 0.6)}
               initial="hidden"
@@ -70,11 +70,20 @@ function Banner() {
             >
               <a
                 className="banner_btn"
-                href="YOUR_RESUME_LINK_HERE"
+                href="https://drive.google.com/file/d/1Yryd5aTP_L8-_WR9IOcKxiq2TpuBqgOF/view?usp=drive_link"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 My Resume
               </a>
+              <Link
+                to="contact"
+                smooth={true}
+                duration={500}
+                className="banner_btn_secondary"
+              >
+                Contact Me
+              </Link>
             </motion.div>
             <motion.div
               variants={fadeIn("up", 0.7)}
@@ -87,13 +96,17 @@ function Banner() {
                 className="media"
                 href="https://github.com/ImJeeva"
                 target="_blank"
+                rel="noopener noreferrer"
+                aria-label="GitHub Profile"
               >
                 <GitHubIcon />
               </a>
               <a
                 className="media"
-                href="https://www.linkedin.com/in/your-linkedin"
+                href="https://www.linkedin.com/in/imjeeva/"
                 target="_blank"
+                rel="noopener noreferrer"
+                aria-label="LinkedIn Profile"
               >
                 <LinkedInIcon />
               </a>
@@ -101,6 +114,8 @@ function Banner() {
                 className="media"
                 href="mailto:romanjeeva22@gmail.com"
                 target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Email Contact"
               >
                 <EmailIcon />
               </a>
@@ -114,7 +129,9 @@ function Banner() {
             viewport={{ once: false, amount: 0.7 }}
             className="banner_images"
           >
-            <img className="banner_image" src={image} alt="Jeeva Portfolio" />
+            <div className="banner_image_container">
+              <img className="banner_image" src={image} alt="Jeeva - Full Stack Developer" />
+            </div>
           </motion.div>
         </div>
       </div>

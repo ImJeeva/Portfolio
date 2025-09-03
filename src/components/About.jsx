@@ -60,7 +60,7 @@ function About() {
             <div className="about_bottom">
               <div>
                 <div className="about_count">
-                  {inView ? <Countup start={0} end={1} duration={2} /> : 1}
+                  {inView ? <Countup start={0} end={1} duration={2} /> : 1+"+"}
                 </div>
                 <div className="about_exp">
                   Years Of <br /> Experience
