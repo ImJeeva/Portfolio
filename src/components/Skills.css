@@ -1,0 +1,36 @@
+.skills_head{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    color: chartreuse;
+   margin-top: 20px;
+}
+.skillss{
+    margin-top: 200px;
+}
+.skills_img{
+height: 100px;
+width: 100px;
+object-fit: contain;
+padding: 5px;
+margin-left: 15px;
+margin-top: 5px;
+}
+.skills_card{
+    background-color:rgb(147, 141, 141);
+    width: 150px;
+}
+.skills_text{
+    margin-top: 0;
+    margin-bottom: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.skills_container{
+    display: grid;
+    /* RAM method (repeat auto-fit minmax() )*/
+    grid-template-columns: repeat(auto-fit,minmax(340px,1fr));
+    gap:30px;
+    justify-items: center;
+}
