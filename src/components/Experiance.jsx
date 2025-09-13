@@ -63,7 +63,7 @@ function Experiance() {
             initial="hidden"
             whileInView={"show"}
             viewport={{ once: false, amount: 0.3 }}
-            className="about_img"
+            className="about_img_care"
           >
             <img
               className="about_image"

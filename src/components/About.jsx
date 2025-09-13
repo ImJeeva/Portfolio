@@ -30,15 +30,16 @@ function About() {
           </motion.div>
 
           {/* Text Section */}
+          
           <motion.div
             variants={fadeIn("left", 0.5)}
             initial="hidden"
             whileInView={"show"}
             className="about_text">
 
-            <h2 className="about1">About Me.</h2>
-            <h3 className="about2">Hello! I’m <span className="about3">JEEVA</span>.</h3>
-            <h3>Java Full Stack Developer at <span className="about3">Greensoft Groups</span></h3>
+            <h2 className="about1">About Me</h2>
+            <h3 className="about2">Hello! I’m  <span className="about3"> JEEVA</span></h3>
+            <h3>Java Full Stack Developer at  <span className="about3"> Greensoft Groups</span></h3>
 
             <p>Hi, I'm Jeeva from Trichy, Tamil Nadu. I hold a B.Sc in Chemistry from Jamal Mohamed College (CGPA: 8.2/10).</p>
 
